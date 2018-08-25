@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF7DA"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/LibraryStyle"
+        android:background="#379237"
+        android:text="@string/playlist"/>
+
+    <TextView
+        style="@style/LibraryStyle"
+        android:text="@string/artist"
+        />
+
+    <TextView
+        style="@style/LibraryStyle"
+        android:text="@string/albums"
+        />
+
+    <TextView
+        style="@style/LibraryStyle"
+        android:text="@string/songs"
+        />
+</LinearLayout>
