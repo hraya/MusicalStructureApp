@@ -8,23 +8,27 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/playlist"
         style="@style/LibraryStyle"
         android:background="#96cdcd"
         android:text="@string/playlist"/>
 
     <TextView
+        android:id="@+id/artist"
         style="@style/LibraryStyle"
         android:background="#aeeeee"
         android:text="@string/artist"
         />
 
     <TextView
+        android:id="@+id/albums"
         style="@style/LibraryStyle"
         android:background="#96cdcd"
         android:text="@string/albums"
         />
 
     <TextView
+        android:id="@+id/songs"
         style="@style/LibraryStyle"
         android:background="#aeeeee"
         android:text="@string/songs"
