@@ -9,21 +9,24 @@
 
     <TextView
         style="@style/LibraryStyle"
-        android:background="#379237"
+        android:background="#96cdcd"
         android:text="@string/playlist"/>
 
     <TextView
         style="@style/LibraryStyle"
+        android:background="#aeeeee"
         android:text="@string/artist"
         />
 
     <TextView
         style="@style/LibraryStyle"
+        android:background="#96cdcd"
         android:text="@string/albums"
         />
 
     <TextView
         style="@style/LibraryStyle"
+        android:background="#aeeeee"
         android:text="@string/songs"
         />
 </LinearLayout>
