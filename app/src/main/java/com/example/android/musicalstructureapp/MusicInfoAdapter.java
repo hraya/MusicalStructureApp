@@ -21,9 +21,9 @@ public class MusicInfoAdapter extends ArrayAdapter<MusicInfo> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         //Check if the existing view is being reused, if not inflate the view
         View listItemView = convertView;
-        if(listItemView == null) {
+        if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.list_item,parent,false);
+                    R.layout.list_item, parent, false);
         }
 
         //gets object location position in the list
@@ -36,7 +36,6 @@ public class MusicInfoAdapter extends ArrayAdapter<MusicInfo> {
         TextView artistTextView = listItemView.findViewById(R.id.artist_text_view);
         //Sets the test ion the TextView for the artist name
         artistTextView.setText(currentInfo.getArtistName());
-
 
 
         return listItemView;

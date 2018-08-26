@@ -9,10 +9,9 @@ public class MusicInfo {
     private String mArtistName;
 
     /**
-     *Creates a new Music Info Object
+     * Creates a new Music Info Object
      *
-     * @param SongName is for the name of the playing song
-     *
+     * @param SongName   is for the name of the playing song
      * @param ArtistName is for the name of the artist singing the song
      */
     public MusicInfo(String SongName, String ArtistName) {
@@ -23,11 +22,15 @@ public class MusicInfo {
     /**
      * Gets the name of the Song
      */
-    public String getSongName() {return mSongName;}
+    public String getSongName() {
+        return mSongName;
+    }
 
     /**
      * Get the name of the Artist
      */
-    public String getArtistName() {return mArtistName;}
+    public String getArtistName() {
+        return mArtistName;
+    }
 
 }

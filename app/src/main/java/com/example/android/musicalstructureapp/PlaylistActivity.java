@@ -15,11 +15,11 @@ public class PlaylistActivity extends AppCompatActivity {
 
         ArrayList<MusicInfo> info = new ArrayList<>();
 
-        info.add(new MusicInfo("", "Top 25 Most Played"));
-        info.add(new MusicInfo("", "90's Hits"));
-        info.add(new MusicInfo("", "Running"));
-        info.add(new MusicInfo("", "Study"));
-        info.add(new MusicInfo("", "Sleep"));
+        info.add(new MusicInfo("Top Country Artist", "Blake Shelton"));
+        info.add(new MusicInfo("Workout Playlist", "90's Hits"));
+        info.add(new MusicInfo("Running Playlist", "Techno"));
+        info.add(new MusicInfo("Study Playlist", "Classical Piano"));
+        info.add(new MusicInfo("Sleeping Playlist", "Nature's Sounds"));
 
 
         MusicInfoAdapter adapter = new MusicInfoAdapter(this,info);

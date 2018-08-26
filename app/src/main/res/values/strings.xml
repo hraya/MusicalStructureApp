@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">Music Library</string>
-    <string name="playlist">Playlist</string>
-    <string name="artist">Artists</string>
-    <string name="albums">Albums</string>
-    <string name="songs">Songs</string>
+    <string name="playlist">Main Playlist</string>
+    <string name="artist">Favorite Artists</string>
+    <string name="albums">Top 5 Albums</string>
+    <string name="songs">All Songs</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
 </resources>
